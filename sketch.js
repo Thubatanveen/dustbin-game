@@ -52,8 +52,8 @@ function draw() {
 	bottomSide.display();
 
 	
-	(CENTER);
- rect(paper.position.x,paper.position.y,radius,radius);
+	paperMode(CENTER);
+ paper(paper.position.x,paper.position.y,radius,radius);
 
 
 	
